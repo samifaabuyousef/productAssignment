@@ -1,0 +1,12 @@
+.t {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    ;
+  }
+  .ts{
+    border: 1px solid black;
+    background-color: grey;
+    font-weight: bold;
+
+  }
