@@ -1,0 +1,31 @@
+
+  <label>Product Name: <input [(ngModel)]="name" > 
+    <label>Quantity: <input [(ngModel)]="quantity" > 
+    
+      <label> Price: <input [(ngModel)]="Price" > 
+        <input type="submit" (click)="addProduct()" value="Add Product" />
+  
+        <br>
+        <br>
+        
+  
+   
+   
+   
+  <table>
+    <thead >
+      <th>Product name</th>
+      <th>Quantity</th>
+      <th> Price</th>
+    </thead>
+    
+  
+    
+       <tr *ngFor="let obj of Products " >
+      <td>{{obj.name}}</td>
+      <td>{{obj.quantity}}</td>
+      <td>{{obj.Price}}</td>
+    </tr>
+   
+  </table>
+  
